@@ -1,0 +1,19 @@
+<%= form_for(@book) do |f| %>
+  <div class="field">
+    <%= f.label :isbn %><br />
+    <%= f.text_field :isbn, size: 25 %>
+    <%= f.label :title %><br />
+    <%= f.text_field :title, size: 25 %>
+    <%= f.label :price %><br />
+    <%= f.text_field :price, sieze: 25 %>
+    <%= f.label :publish %><br />
+    <%= f.text_field :publish, size:25 %>
+    <%= f.label :published %><br />
+    <%= f.text_field :published, size:25 %>
+    <%= f.label :dl %><br />
+    <%= f.text_field :dl, size: 25 %>
+  </div>
+  <div class="action">
+    <%= f.submit %>
+  </div>
+<% end %>
