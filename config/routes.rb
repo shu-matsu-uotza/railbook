@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   post 'keyword/search'
   get 'view/form_for'
   post 'view/create'
+  get 'view/field'
+  get 'view/html5'
 end
