@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   post 'view/create'
   get 'view/field'
   get 'view/html5'
+  get 'view/select'
 end
