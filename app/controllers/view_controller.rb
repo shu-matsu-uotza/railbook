@@ -14,4 +14,8 @@ class ViewController < ApplicationController
   def select
     @book = Book.new(publish: '技術評論社')
   end
+
+  def simple_format
+    @book = Book.new
+  end
 end
