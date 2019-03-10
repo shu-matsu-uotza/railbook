@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   get 'view/html5'
   get 'view/select'
   get 'view/simple_format'
+  get 'view/partial_basic'
 end
