@@ -18,4 +18,8 @@ class ViewController < ApplicationController
   def simple_format
     @book = Book.new
   end
+
+  def partial_basic
+    @book = Book.find(1)
+  end
 end
